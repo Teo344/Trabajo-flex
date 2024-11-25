@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+header{
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: auto;
+    display: flex; /* Habilitar flexbox para centrar ambos elementos */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.informacion{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style: dotted;  
+    column-rule-color: red;
+    column-width: 10ox;
+    column-rule: 1px solid red; 
+    padding: 40px;
+    border: 1px solid black;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+
+}
+
+footer {
+    display: block;
+    margin-top: 20px; /* Si quieres mantener el margen superior */
+    background-color: blue;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    height: auto; /* Ajusta la altura según el contenido (opcional) */
+    position: relative; /* Asegura que no salga del flujo del documento */
+}
+
+h2{
+    color: red;
+    font-size: 30px;
+}
+
+span{
+    font-size: 20px;  
+}
